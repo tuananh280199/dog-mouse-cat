@@ -10,4 +10,6 @@ Mouse.prototype.die = function(){
 
 Mouse.prototype.eat = function(a){
 	this.stomach.push(a)
-}
+
+
+module.exports = Mouse;
