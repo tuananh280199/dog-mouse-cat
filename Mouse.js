@@ -1,4 +1,4 @@
-function Mouse(){
+function Mouse(name){
 	this.name = name;
 	this.dead = false;
 	this.stomach = [];
@@ -7,9 +7,5 @@ function Mouse(){
 Mouse.prototype.die = function(){
 	this.dead = true;
 }
-
-Mouse.prototype.eat = function(a){
-	this.stomach.push(a)
-
 
 module.exports = Mouse;
